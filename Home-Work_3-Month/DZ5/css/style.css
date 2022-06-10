@@ -1,0 +1,38 @@
+
+#smallWindow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cont {
+    /*display: inline-block;*/
+    text-align: center;
+    margin: 35px auto;
+}
+.cont input {
+    border: 1px solid;
+    border-radius: 5px;
+    height: 25px;
+    font-size: 17px;
+}
+
+.cont button {
+    border: 1px solid;
+    border-radius: 5px;
+    height: 25px;
+    font-size: 17px;
+}
+.coctail {
+    margin: 15px;
+    text-align: center;
+    width: 210px;
+    border: 2px solid;
+    border-radius: 4px;
+    padding-bottom: 10px;
+}
+.img {
+    display: block;
+    width: 210px;
+    height: 300px;
+}

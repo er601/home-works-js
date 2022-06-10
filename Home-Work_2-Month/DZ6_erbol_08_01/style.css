@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.content {
+    width: 100%;
+    height: 100vh;
+    background: #207f5f;
+}
+.video {
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    margin: 0 auto;
+    background: #30b386;
+    width: 700px;
+    height: 600px;
+    padding-top: 20px;
+}
+
+.grade {
+    display: flex;
+    justify-content: center;
+    padding: 0 20px 0 10px;
+    color: #fff;
+}
+.grade p {
+    flex: 1 1 auto;
+    margin: 0 40px 0 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+button {
+    border-radius: 8px;
+}

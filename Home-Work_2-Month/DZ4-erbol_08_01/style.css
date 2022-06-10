@@ -1,0 +1,39 @@
+.Wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+.Wrapper p{
+    color: red;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button {
+    background: #9b57dc;
+    color: #aed5f5;
+    border: 0;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+/*.minus {*/
+/*    background: #053a65;*/
+/*    color: #f1f5f5;*/
+/*    border: 0;*/
+/*    border-radius: 50%;*/
+/*    width: 50px;*/
+/*    height: 50px;*/
+/*}*/
+.line {
+    border: 0;
+    background: #dedada;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+

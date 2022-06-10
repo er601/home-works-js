@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DZ2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="Task1">
+    <input id="add-item-btn" type="button" value="+" onclick="addElement()">
+    <div id="container"></div>
+</div>
+
+<br><br><br>
+
+<div class="Task2">
+    <button id="start" onclick="startInterval()">Start</button>
+    |
+    <button id="stop" onclick="stopInterval()">Stop</button>
+    <div id="container2"></div>
+</div>
+
+<br><br><br>
+
+<div class="Task3">
+    <div>
+        <span id="minutes">00</span>:
+        <span id="seconds">00</span>
+    </div>
+    <button id="start2" onclick="intervalStart()">Start</button>
+    <button id="pause" onclick="intervalStop()" disabled>Pause</button>
+    <button id="reset" onclick="intervalReset()" disabled>Reset</button>
+</div>
+
+<br><br><br>
+
+<div class="Task4">
+    <form>
+        <input type="text" name="username"/>
+        <input type="text" name="password"/>
+        <input type="submit" value="Log in" disabled/>
+    </form>
+</div>
+
+
+<br><br><br>
+
+<div class="Task5">
+    <p class="question">
+        Висит груша - нельзя скушать.
+        <span class="answer">Лампочка</span>
+    </p>
+
+    <p class="question">
+        С луком с яйцами, но не пирожок?
+        <span class="answer">Робин Гуд</span>
+    </p>
+
+    <p class="question">
+        Один глаз, один рог, но не носорог?
+        <span class="answer">Корова из-за угла выглядывает</span>
+    </p>
+
+</div>
+
+</body>
+<script src="main.js"></script>
+</html>
